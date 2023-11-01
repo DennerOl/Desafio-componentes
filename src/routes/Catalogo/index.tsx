@@ -20,9 +20,13 @@ export default function Catalogo() {
             <Card />
             <Card />
           </div>
-
-
         </section>
+        <section>
+          <div className='dsc-section-coment'>
+            O que estão dizendo
+          </div>
+        </section>
+
       </main>
 
     </>

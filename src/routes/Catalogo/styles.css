@@ -9,3 +9,16 @@
   align-items: center;
 
 }
+
+
+
+.dsc-section-coment {
+  color: #5E5E5E;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 25px;
+}

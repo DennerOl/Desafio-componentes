@@ -40,18 +40,15 @@ main {
 
 @media (min-width: 1200px) {
   .dsc-catalogo-main {
-    text-align: left;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
 
   }
 
   .dsc-header-container {
-    display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+
 
   }
 
