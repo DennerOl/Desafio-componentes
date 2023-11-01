@@ -1,0 +1,24 @@
+.dsc-card {
+  border-radius: 10px;
+  border: 1px solid #3C9AF0;
+  background: rgba(217, 217, 217, 0.00);
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.dsc-card img {
+  width: 260px;
+  margin-bottom: 9.54px;
+
+}
+
+.dsc-card h3 {
+  color: #5E5E5E;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

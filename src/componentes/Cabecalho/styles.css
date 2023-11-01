@@ -1,0 +1,9 @@
+.dsc-comp-cabacalho h2 {
+  color: var(--dsc-color-font-secondary);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
