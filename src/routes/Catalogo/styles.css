@@ -1,16 +1,9 @@
-.dsc-cabecalho-container {
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-
 .dsc-catalog-cards-container {
   display: grid;
   grid-gap: 20px;
   align-items: center;
 
 }
-
-
 
 .dsc-section-coment {
   color: #5E5E5E;
@@ -21,4 +14,33 @@
   font-weight: 700;
   line-height: normal;
   padding-top: 25px;
+  padding-bottom: 25px;
+
+}
+
+.dsc-section-container {
+  margin-top: 25px;
+  padding-bottom: 25px;
+  background-color: #c8c8c8;
+  width: 100%;
+}
+
+.dsc-CardComent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+
+}
+
+
+footer {
+
+  background-color: #3C9AF0;
+  width: 100%;
+  height: 120px;
+
+
+
 }

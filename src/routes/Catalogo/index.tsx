@@ -2,6 +2,7 @@ import './styles.css'
 import Cabecalho from '../../componentes/Cabecalho';
 import Header from '../../componentes/Header';
 import Card from '../../componentes/Card';
+import CardComent from '../../componentes/CardComent';
 
 
 export default function Catalogo() {
@@ -21,13 +22,34 @@ export default function Catalogo() {
             <Card />
           </div>
         </section>
-        <section>
+        <section className='dsc-section-container'>
           <div className='dsc-section-coment'>
             O que estão dizendo
           </div>
+
+          <div className='dsc-CardComent'>
+            <CardComent />
+            <CardComent />
+            <CardComent />
+            <CardComent />
+            <CardComent />
+            <CardComent />
+          </div>
+
+
         </section>
 
       </main>
+      <footer>
+        <div className='dsc-footer-container'>
+
+          <div>@dscarrostop</div>
+          <div className='dsc-div-rua'>Rua da Pipoca, 150</div>
+
+        </div>
+
+      </footer>
+
 
     </>
   )

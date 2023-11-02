@@ -22,7 +22,7 @@ html, body {
 }
 
 main {
-  padding: 0 20px;
+
   align-items: center;
 }
 
@@ -52,4 +52,35 @@ main {
 
   }
 
+  .dsc-footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3C9AF0;
+    height: 120px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 49px;
+    padding-bottom: 50px;
+  }
+
+
+}
+
+
+
+@media (max-width: 320px) {
+  .dsc-footer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+  }
 }
