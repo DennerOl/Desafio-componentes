@@ -39,6 +39,27 @@ main {
 }
 
 @media (min-width: 1200px) {
+
+  .dsc-card h3 {
+    color: #5E5E5E;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .dsc-comp-cabacalho {
+
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
   .dsc-catalogo-main {
     display: flex;
     flex-direction: column;
@@ -50,6 +71,16 @@ main {
     justify-content: center;
 
 
+  }
+
+  .dsc-section-coment {
+    color: #5E5E5E;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
   }
 
   .dsc-footer-container {
@@ -70,6 +101,28 @@ main {
 
 
 @media (max-width: 320px) {
+
+  header h1 {
+    color: var(--dsc-color-font-primary);
+    font-size: 20px;
+    text-align: center;
+
+  }
+
+  .dsc-comp-cabacalho div {
+    color: var(--dsc-color-font-secondary);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 25px;
+    margin-bottom: 5px;
+
+  }
+
+
   .dsc-footer-container {
     width: 100%;
     display: flex;
